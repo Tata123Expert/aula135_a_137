@@ -31,7 +31,7 @@ function draw()
             text(objects[i].label + " " + percent + "%", objects[i].x + 15, objects[i].y + 15);
             noFill();
             stroke("#FF0000");
-            rect(object[i].x, object[i].y, object[i].width, object[i].height);
+            rect(objects[i].x, objects[i].y, objects[i].width, objects[i].height);
         }
     }
 }
@@ -63,3 +63,29 @@ function modelLoaded()
     video.speed(1);
     video.volume(0.5);
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
